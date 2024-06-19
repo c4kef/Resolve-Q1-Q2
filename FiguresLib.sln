@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiguresLib", "FiguresLib\FiguresLib.csproj", "{966BB59A-4414-4409-B5D3-2F4DE0E08145}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FigurestTest", "FigurestTest\FigurestTest.csproj", "{DEBF49B5-5EC8-433F-8264-BE2B91F0ACE3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{966BB59A-4414-4409-B5D3-2F4DE0E08145}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{966BB59A-4414-4409-B5D3-2F4DE0E08145}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{966BB59A-4414-4409-B5D3-2F4DE0E08145}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{966BB59A-4414-4409-B5D3-2F4DE0E08145}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEBF49B5-5EC8-433F-8264-BE2B91F0ACE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEBF49B5-5EC8-433F-8264-BE2B91F0ACE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEBF49B5-5EC8-433F-8264-BE2B91F0ACE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEBF49B5-5EC8-433F-8264-BE2B91F0ACE3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

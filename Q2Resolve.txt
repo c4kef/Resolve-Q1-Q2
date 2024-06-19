@@ -1,0 +1,25 @@
+--Таблица товаров
+CREATE TABLE Goods (
+    Id INT PRIMARY KEY IDENTITY(1,1),
+    Name NVARCHAR(255) NOT NULL
+);
+
+--Таблица со списком категорий
+CREATE TABLE Categories (
+    Id INT PRIMARY KEY IDENTITY(1,1),
+    Name NVARCHAR(255) NOT NULL
+);
+
+--Тут связи между товар-категория
+CREATE TABLE Catalog (
+    GoodsId INT NOT NULL,
+    CategoryId INT NOT NULL,
+    FOREIGN KEY (GoodsId) REFERENCES Goods(Id),
+    FOREIGN KEY (CategoryId) REFERENCES Categories(Id),
+    PRIMARY KEY (GoodsId, CategoryId)
+);
+
+--Запрос
+SELECT g.Name AS ProductName, c.Name AS CategoryName FROM Goods g
+LEFT JOIN Catalog ctg ON g.Id = ctg.GoodsId
+LEFT JOIN Categories c ON ctg.CategoryId = c.Id;
